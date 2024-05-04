@@ -37,7 +37,7 @@ e = combined_name.count("e")
 
 love = l + o + v + e
 
-love_score = int(str(true + love))
+love_score = int(true + love)
 
 if love_score < 10 or love_score > 90:
     print(f"Your score is {love_score}, you go together like coke and mentos.")

@@ -17,8 +17,6 @@ num_items = len(names)
 # Generate and select random number between 0 and last index
 random_choice = random.randint(0, num_items - 1)
 
-print(random_choice)
-
 whoPays = names[random_choice]
 
 print(f"{whoPays} is going to buy the food for everyone")
